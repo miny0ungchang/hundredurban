@@ -188,20 +188,26 @@ Primary use:
 [ S-Text 0 - 15 ]*/
 
 /*---------------------------------------------*/
-.s2-txt1 {
-  font-family: Poppins-Medium;
-  font-size: 15px;
+.subtitle {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 25px;
   color: #333;
   line-height: 1.2;
 }
 
+.input-text {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 17px;
+  color: #333;
+  line-height: 1.2;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
 [ M-Text 16 - 25 ]*/
 
 /*---------------------------------------------*/
-.m2-txt1 {
+.content {
   font-family: Poppins-Regular;
   font-size: 24px;
   color: #999;
@@ -212,9 +218,9 @@ Primary use:
 
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
-.l1-txt1 {
-  font-family: PlayfairDisplay-BlackItalic;
-  font-size: 90px;
+.title {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 75px;
   color: #333;
   line-height: 1.1;
 }
