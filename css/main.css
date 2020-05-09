@@ -182,15 +182,7 @@ Primary use:
 .cl1 {color: #333;}
 
 
-#logo{
-  width: 70px;
-  height: 70px;
-}
 
-#logo:hover {
-  fill: #1F6650;
-  cursor: default;
-}
 
 /*//////////////////////////////////////////////////////////////////
 [ S-Text 0 - 15 ]*/
@@ -198,14 +190,14 @@ Primary use:
 /*---------------------------------------------*/
 .subtitle {
   font-family: 'Cabin Sketch', cursive;
-  font-size: 20px;
+  font-size: 25px;
   color: #333;
   line-height: 1.2;
 }
 
 .input-text {
   font-family: 'Cabin Sketch', cursive;
-  font-size: 15px;
+  font-size: 17px;
   color: #333;
   line-height: 1.2;
 }
@@ -223,28 +215,14 @@ Primary use:
 }
 
 
-.brandname {
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-size: 24px;
-  color: black;
-  line-height: 1.2;
-  cursor: default;
-}
-
-.brandname:hover {
-  color: #1F6650;
-  cursor: default;
-}
-
 
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .title {
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 70px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 75px;
   color: #333;
   line-height: 1.1;
-  text-transform: uppercase;
 }
 
 
