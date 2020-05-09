@@ -6,26 +6,6 @@ Assigned to:  Bach Le
 Primary use:  
 -------------------------------------------------------------------*/
 
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-@font-face {
-  font-family: PlayfairDisplay-BlackItalic;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/Poppins/Poppins-Medium.ttf'); 
-}
-
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
 /*---------------------------------------------*/
@@ -100,7 +80,7 @@ Primary use:
   right: 82px;
   pointer-events: none;
 
-  font-family: Poppins-Medium;
+  font-family: 'Cabin Sketch', cursive;
   color: #c80000;
   font-size: 14px;
   line-height: 1.4;
@@ -182,16 +162,6 @@ Primary use:
 .cl1 {color: #333;}
 
 
-#logo{
-  width: 70px;
-  height: 70px;
-}
-
-#logo:hover {
-  fill: #1F6650;
-  cursor: default;
-}
-
 /*//////////////////////////////////////////////////////////////////
 [ S-Text 0 - 15 ]*/
 
@@ -216,24 +186,10 @@ Primary use:
 
 /*---------------------------------------------*/
 .content {
-  font-family: Poppins-Regular;
+  font-family: 'Cabin Sketch', cursive;
   font-size: 24px;
   color: #999;
   line-height: 1.2;
-}
-
-
-.brandname {
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-size: 24px;
-  color: black;
-  line-height: 1.2;
-  cursor: default;
-}
-
-.brandname:hover {
-  color: #1F6650;
-  cursor: default;
 }
 
 
@@ -338,12 +294,35 @@ Primary use:
 }
 
 /*---------------------------------------------*/
+.wrap-logo {
+  align-items: center;
+}
+
 .wrappic1 {
   display: block;
 }
 
-.wrappic1 img {
-  max-width: 100%;
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+#logo:hover {
+  fill: #1F6650;
+  cursor: default;
+}
+
+.brandname {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 24px;
+  color: black;
+  line-height: 1.2;
+  cursor: default;
+}
+
+.brandname:hover {
+  color: #1F6650;
+  cursor: default;
 }
 
 /*---------------------------------------------*/
