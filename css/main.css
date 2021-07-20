@@ -9,6 +9,42 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
 /*---------------------------------------------*/
+
+#text {
+  font-family: "Spartan";
+	display: inline-block;
+	vertical-align: middle;
+	color: #0097a7;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 30px;
+	background-color: #0097a7;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #0097a7; 
+	}
+}
+
+.contact{
+  font-family: "Spartan";
+  font-size: 12px;
+}
+
+.contact a {
+  color: black;
+}
+
 .container {max-width: 1200px;}
 
 
@@ -80,7 +116,8 @@ Primary use:
   right: 82px;
   pointer-events: none;
 
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Spartan', cursive;
+  font-weight: 900;
   color: #c80000;
   font-size: 14px;
   line-height: 1.4;
@@ -167,14 +204,19 @@ Primary use:
 
 /*---------------------------------------------*/
 .subtitle {
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 20px;
+  font-family: 'Spartan', cursive;
+  padding-top: 20px;
+  font-size: 18px;
   color: #333;
   line-height: 1.2;
 }
 
+.subtitle2 {
+  font-family: 'Spartan';
+}
+
 .input-text {
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Spartan', cursive;
   font-size: 15px;
   color: #333;
   line-height: 1.2;
@@ -186,7 +228,7 @@ Primary use:
 
 /*---------------------------------------------*/
 .content {
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Spartan', cursive;
   font-size: 24px;
   color: #999;
   line-height: 1.2;
@@ -196,11 +238,10 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .title {
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 70px;
+  font-family: 'Spartan', cursive;
+  font-weight: 900;
+  font-size: 28px;
   color: #333;
-  line-height: 1.1;
-  text-transform: uppercase;
 }
 
 
@@ -211,12 +252,12 @@ Primary use:
 [ Size ]*/
 .size1 {
   width: 100%;
-  min-height: 100vh;
+  height: 95%;
 }
 
 .size2 {
   width: 90px;
-  height: 80px;
+  height: 50px;
 }
 
 .size3 {
@@ -314,10 +355,9 @@ Primary use:
 
 .brandname {
   font-family: 'Montserrat Subrayada', sans-serif;
-  font-size: 24px;
-  color: black;
-  line-height: 1.2;
-  cursor: default;
+  font-size: 14px;
+  color: #0097a7;
+  cursor: pointer;
 }
 
 .brandname:hover {
@@ -375,6 +415,10 @@ Primary use:
   -o-transform: translateX(10px);
   transform: translateX(10px);
 }
+
+
+
+
 
 
 
