@@ -358,6 +358,7 @@ Primary use:
   font-family: 'Montserrat Subrayada', sans-serif;
   font-size: 14px;
   color: #0097a7;
+  text-decoration: none;
 }
 
 .brandname:hover {
