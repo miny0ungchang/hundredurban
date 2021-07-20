@@ -206,13 +206,14 @@ Primary use:
 .subtitle {
   font-family: 'Spartan', cursive;
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 20px;
   color: #333;
   line-height: 1.2;
 }
 
 .subtitle2 {
   font-family: 'Spartan';
+  font-size: 13px;
 }
 
 .input-text {
@@ -357,7 +358,6 @@ Primary use:
   font-family: 'Montserrat Subrayada', sans-serif;
   font-size: 14px;
   color: #0097a7;
-  cursor: pointer;
 }
 
 .brandname:hover {
